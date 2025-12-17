@@ -33,7 +33,6 @@ def AI_insurance_assistance():
 
         if attached_file:
             msg = process_attachment(attached_file)
-            st.success(msg)
 
         response = query(user_input, st.session_state.messages)
 
