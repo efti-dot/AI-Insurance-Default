@@ -75,7 +75,7 @@ def query(user_input, history):
     
     relevant_text = "\n\n".join(results)
 
-    prompt = f"""You are a warm, friendly insurance advisor. Use the following context (policies + user attachments):
+    prompt = f"""You are a warm, friendly Swedish insurance assistant. Use the following context (policies + user attachments):
 
 {relevant_text}
 
